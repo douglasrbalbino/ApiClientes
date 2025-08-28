@@ -1,6 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+
+namespace ApiClientes.Models;
+
 public class Cliente
+
+   
 {
     // 1. Atributo existente
     public int Id { get; set; }
